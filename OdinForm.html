@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up-Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="sidebar">
+        <div id="banner">
+            <img src="odin-logo.png" id="Odin-Logo">
+            <h1>ODIN</h1>
+        </div>
+        <p>Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/photos/25xggax4bSA">Unsplash</a></p>
+    </div>
+    <div id="Sign-up">
+        <p class="form-intro">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up <em>now</em> to get started.</p>
+        <p class="form-intro">You <em>know</em> you want to.</p>
+        <hr>
+            <p class="form-intro" id="test">Let's do this!</p>
+            <form action="" method="POST">
+                <div class="form-section">
+                    <div class="form-input">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" name="first-name" id="first-name">
+                    </div>
+                    <div class="form-input">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" name="last-name" id="last-name">
+                    </div>
+                </div>
+                <div class="form-section">
+                    <div class="form-input">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="form-input">
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="tel" name="phone-number" id="phone-number">
+                    </div>
+                </div>
+                <div class="form-section">
+                    <div class="form-input">
+                        <label for="pwd">PASSWORD</label>
+                        <input type="password" name="pwd" id="pwd">
+                    </div>
+                    <div class="form-input">
+                        <label for="confirm-pwd">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm-pwd" id="confirm-pwd">
+                    </div>
+                </div>
+                <div id="error"> </div>
+            </form>
+            <hr id="divider">
+            <button type="button">Create Account</button>
+            <p id="login">Already have an account? <a href="">Log in</a></p>
+        </div>
+    </body>
+</html>
